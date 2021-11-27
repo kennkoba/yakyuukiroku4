@@ -26,5 +26,4 @@ data_load_state.text('Loading data...done!')
 
 st.dataframe(data.style.highlight_max(axis=0),width=900,height=1000)
 
-erea_list = data['球団'].unique()
-selected_erea=st.sidebar.selectbox('表示する球団を選択:',data)
+
