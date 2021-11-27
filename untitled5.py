@@ -26,4 +26,3 @@ data_load_state.text('Loading data...done!')
 
 st.dataframe(data.style.highlight_max(axis=0),width=900,height=1000)
 
-
