@@ -39,5 +39,5 @@ selected_erea = st.multiselect('グラフに表示する球団を選択', erea_l
 df=data[(data['球団'].isin(selected_erea))]
 st.write(px.bar(df,x='選手名',y='打率',title='打率'))
 st.write(px.bar(df,x='選手名',y='本塁打',title='本塁打'))
-st.write(px.bar(df,x='選手名',y='打点',title=''))打点
+st.write(px.bar(df,x='選手名',y='打点',title='打点'))
 st.write('Sportsnavi プロ野球個人成績参照')
