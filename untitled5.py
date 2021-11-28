@@ -10,7 +10,6 @@ import plotly.express as px
 import pandas as pd
 
 
-
 st.title('セリーグ打者記録')
 DATA_URL=('pandas_sample.csv')
 DATE_COLUMN='datepep'
