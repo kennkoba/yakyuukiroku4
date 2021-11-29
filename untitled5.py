@@ -28,10 +28,7 @@ data_load_state=st.text('Loading data...')
 data=load_data(10000)
 data_load_state.text('Loading data...done!')
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 02fd12f8a76c96c749a653378fbd92a73d7b06f0
 st.dataframe(data.style.highlight_max(axis=0),width=900,height=1000)
 
 erea_list =data['球団'].unique()
@@ -45,9 +42,5 @@ st.write(px.bar(df,x='選手名',y='打率',title='打率'))
 st.write(px.bar(df,x='選手名',y='本塁打',title='本塁打'))
 st.write(px.bar(df,x='選手名',y='打点',title='打点'))
 st.write('Sportsnavi プロ野球個人成績参照')
-<<<<<<< HEAD
-=======
 
 
-
->>>>>>> 02fd12f8a76c96c749a653378fbd92a73d7b06f0
